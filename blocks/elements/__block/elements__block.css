@@ -1,0 +1,7 @@
+.elements__block {
+    width: 242px;
+    margin: 0 20px 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 22px;
+    gap: 10px;
+}

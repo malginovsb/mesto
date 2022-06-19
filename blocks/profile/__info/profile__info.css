@@ -1,0 +1,25 @@
+.profile__info {
+    max-width: 550px;
+    align-items: center;
+    grid-area: profile__info;
+    gap: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: min-content min-content;
+    grid-template-areas: "profile__title profile__edit-button"
+                         "profile__subtitle .";
+
+}
+
+@media screen and (max-width: 525px) {
+    .profile__info {
+        justify-items: center;
+        row-gap: 10px;
+        column-gap: 14px;
+        margin: 26px 19px 36px 19px;
+        grid-template-columns: 20px 1fr 20px;
+        grid-template-rows: min-content min-content;
+        grid-template-areas: ". profile__title profile__edit-button"
+                             ". profile__subtitle .";
+    }
+}

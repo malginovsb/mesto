@@ -15,16 +15,16 @@
     }
 }
 
-@media screen and (max-width: 735px) {
+/* @media screen and (max-width: 735px) {
     .profile {
         grid-template-columns: min-content 1fr;
         grid-template-rows: min-content 1fr;
         grid-template-areas: "profile__avatar profile__info"
                              ". profile__add-button";
     }
-}
+} */
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 735px) {
     .profile {
         row-gap: 0;
         margin: 40px auto 0 auto;

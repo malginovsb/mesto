@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     border: none;
-    background-color: #00000000;
+    background-color: transparent;
     grid-area: popup__close-button;
 }
 

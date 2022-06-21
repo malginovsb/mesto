@@ -6,39 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Проект: Место</title>
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./vendor/fonts/inter.css">
 </head>
 <body class="root">
 
     <div class="page">
 
         <header class="header">
-
             <img class="header__logo" src="./images/logo.svg" alt="Логотип">
-
-
         </header>
 
         <main class="content">
 
             <section class="profile">
-
                     <img class="profile__avatar" src="./images/avatar.jpeg" alt="Аватар">
                     <div class="profile__info">
                             <h1 class="profile__title">Жак-Ив Кусто</h1>
                             <button class="profile__edit-button" type="button"></button>
-                        <h2 class="profile__subtitle">Исследователь океана</h2>
+                        <p class="profile__subtitle">Исследователь океана</p>
                     </div>
                 <button class="profile__add-button" type="button"></button>
             </section>
 
             <section class="elements">
-
                 <div class="elements__card">
                     <img class="elements__photo" src="./images/karachaevsk.jpeg" alt="Карачаевск">
                     <div class="elements__block">
                         <h2 class="elements__title">Карачаевск</h2>
-                        <button class="elements__like"></button>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
 
@@ -46,7 +40,7 @@
                     <img class="elements__photo" src="./images/arhiz.jpeg" alt="Архыз">
                     <div class="elements__block">
                         <h2 class="elements__title">Архыз</h2>
-                        <button class="elements__like"></button>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
 
@@ -54,7 +48,7 @@
                     <img class="elements__photo" src="./images/beshtau.jpeg" alt="Бештау">
                     <div class="elements__block">
                         <h2 class="elements__title">Бештау</h2>
-                        <button class="elements__like"></button>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
 
@@ -62,7 +56,7 @@
                     <img class="elements__photo" src="./images/dolina_narzanov.jpeg" alt="Долина Нарзанов">
                     <div class="elements__block">
                         <h2 class="elements__title">Долина Нарзанов</h2>
-                        <button class="elements__like"></button>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
 
@@ -70,7 +64,7 @@
                     <img class="elements__photo" src="./images/dombai.jpeg" alt="Домбай">
                     <div class="elements__block">
                         <h2 class="elements__title">Домбай</h2>
-                        <button class="elements__like"></button>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
 
@@ -78,14 +72,14 @@
                     <img class="elements__photo" src="./images/elbrus.jpeg" alt="Эльбрус">
                     <div class="elements__block">
                         <h2 class="elements__title">Эльбрус</h2>
-                        <button class="elements__like"></button>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
 
             </section>
 
             <div class="popup">
-                <button class="popup__close-button"></button>
+                <button class="popup__close-button" type="button"></button>
                 <form class="popup__container" name="popup-container">
                     <h2 class="popup__header">Редактировать профиль</h2>
                     <input class="popup__element popup__element_type_title" type="text" name="popup__title">
@@ -98,9 +92,7 @@
         </main>
 
         <footer class="footer">
-
-            <h2 class="footer__label">&commat; 2020 Mesto Russia</h2>
-
+            <p class="footer__label">&copy; 2022 Mesto Russia</p>
         </footer>
 
         <script src="./scripts/index.js"></script>
